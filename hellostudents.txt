@@ -1,2 +1,15 @@
 Hello student
 this is my new git code
+#include<stdio.h> // write a program to calculate perimeter of rectangle take side a &b from user 
+int main() {
+
+    int a; // length
+    int b;// height
+    printf("enter number a : \n") ;
+    scanf("%d",&a);
+    printf("enter number b :");
+    scanf("%d",&b);
+    printf("paremeter of rectangle is : %d", 2*(a+b));
+
+    return 0;
+}
